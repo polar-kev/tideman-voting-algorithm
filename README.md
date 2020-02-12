@@ -12,3 +12,40 @@ The Tideman voting method consists of three parts:
 Purpose of this project:
 - Revisit the programming language C
 - Practice implementing an algorithm I haven't seen before
+
+## Running the Code
+When executing Tideman from the command line, supply the names for all the candidates in the election
+
+The user will then be prompted for the number of voters.
+
+The user will then be able to input the votes for each candidate as number rankings
+
+The winning candidate will be output
+
+#### Example
+```
+./tideman Alice Bob Charlie
+Number of voters: 5
+Rank 1: Alice
+Rank 2: Charlie
+Rank 3: Bob
+
+Rank 1: Alice
+Rank 2: Charlie
+Rank 3: Bob
+
+Rank 1: Bob
+Rank 2: Charlie
+Rank 3: Alice
+
+Rank 1: Bob
+Rank 2: Charlie
+Rank 3: Alice
+
+Rank 1: Charlie
+Rank 2: Alice
+Rank 3: Bob
+
+Charlie
+```
+
